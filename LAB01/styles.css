@@ -14,21 +14,21 @@
     font-family: Minecraft;
 }
 .btn-minecraft {
-    background: #5d89e9; /* สีเขียว */
+    background: #d5ef53; /* สีเขียว */
     color: #fff; /* สีขาว */
     width: 30%; /* ปรับขนาดของปุ่มให้มีขนาดใหญ่ขึ้น */
     padding: 1rem; /* ปรับระยะห่างของข้อความภายในปุ่ม */
     margin-bottom: 1.5rem; /* ปรับระยะห่างของปุ่มล่าง */
     font-size: 1.5rem; /* ปรับขนาดตัวอักษรในปุ่มให้ใหญ่ขึ้น */
     letter-spacing: .05rem; /* ปรับระยะห่างระหว่างตัวอักษร */
-    border: 2px solid #53a7c3; /* สีเขียว */
+    border: 2px solid #ffff2e; /* สีเขียว */
     border-radius: 10px; /* ปรับมุมของปุ่มให้มีรูปร่างที่มนเหมือนกัน */
     transition: background-color 0.3s ease, color 0.3s ease; /* เพิ่ม transition เพื่อทำให้การเปลี่ยนสีมีอนิเมชัน */
 }
 
 .btn-minecraft:hover {
-    background: #316af0; /* เขียวเข้มขึ้นเมื่อโฮเวอร์ */
-    border-color: #5771f0; /* เขียวเข้มขึ้นเมื่อโฮเวอร์ */
+    background: #9fba09; /* เขียวเข้มขึ้นเมื่อโฮเวอร์ */
+    border-color: #acb919; /* เขียวเข้มขึ้นเมื่อโฮเวอร์ */
     color: rgb(0, 0, 0); /* สีเหลือง */
 }
 bn 
