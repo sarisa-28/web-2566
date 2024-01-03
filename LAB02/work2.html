@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script>
+</head>
+
+<body>
+  <a-scene>
+    <a-assets>
+      <img id="view" src="work2/view360.jpg">
+      <img id="me" src="work2/me.jpg">
+      <img id="moo" src="work2/mo.jpg">
+      <img id="moota" src="work2/moota.png">
+    </a-assets>
+
+    <a-text value="Work 2" position="0 -5 -2.2"
+      animation="property: position; to: -1 1.5 -2.2; dur: 2000; easing: linear; loop: false"></a-text>
+
+    <a-text value="Warissara Phanrod" position="-5 1 -2" baseline="bottom"
+      animation="property: position; to: -1 0.5 -2.2; dur: 8000; easing: linear; loop: false"></a-text>
+
+    <a-text value="643020642-8" position="-9 0.5 -5" baseline="bottom"
+      animation="property: position; to: -1 1 -2.2; dur: 8000; easing: linear; loop: false"></a-text>
+
+    <a-sky color="#ECFFFF" src="#view" radius="400"></a-sky>
+    <a-camera>
+      <a-cursor></a-cursor>
+    </a-camera>
+
+    <a-box position="1 2 2" width="1" height="1" animation="property: position; to: -1 3 -5; dur: 2000; easing: linear"
+      animation__2="property: rotation;; to: 0 360 0; dur: 5000; loop: true;" src="#me"></a-box>
+
+    <a-box position="1 2 2" width="1" height="1" animation="property: position; to: 3 5 -6; dur: 2000; easing: linear"
+      animation__2="property: rotation;; to: 0 360 0; dur: 5000; loop: true;" src="#moo"></a-box>
+
+    <a-box position="1 2 2" width="1" height="1" animation="property: position; to: -4 9 2; dur: 2000; easing: linear"
+      animation__2="property: rotation;; to: 0 360 0; dur: 5000; loop: true;" src="#moo"></a-box>
+
+
+    <a-sphere position="2 1 -2" radius="5"  src="#moota">
+
+    </a-sphere>
+
+
+  </a-scene>
+</body>
+
+</html>
